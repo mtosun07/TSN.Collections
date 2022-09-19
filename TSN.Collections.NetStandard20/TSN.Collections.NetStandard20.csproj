@@ -16,13 +16,13 @@
 		<Authors>MUSTAFA TOSUN</Authors>
 		<Copyright>Copyright © MUSTAFA TOSUN, 2022.</Copyright>
 		<Description>A library that presents special generic collections and object models (such like IReadOnlySet&lt;T&gt;, ReadOnlyHashSet&lt;T&gt; and EntityEqualityComparer&lt;T&gt;), that follow the original .NET patterns.</Description>
-		<Title>$(AssemblyName)</Title>
-		<Product>$(AssemblyName)</Product>
+		<Title>TSN.Collections</Title>
+		<Product>$(Title)</Product>
 		<SignAssembly>False</SignAssembly>
 		<PackageProjectUrl>https://mustafatosun.net</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/mtosun07/TSN.Collections</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageId>$(AssemblyName)</PackageId>
+		<PackageId>$(Title)</PackageId>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageTags>collections;object;models;special;generic;hashset;readonly;equality;hash code;comparer;interface</PackageTags>
 		<PackageIcon>icon.png</PackageIcon>
