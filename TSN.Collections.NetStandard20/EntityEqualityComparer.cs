@@ -28,7 +28,7 @@ namespace TSN.Collections
         public bool Equals(TEntity x, TEntity y) => _equals(x, y);
         public int GetHashCode(TEntity obj) => _getHashCode(obj);
 
-        public static bool NullAwareEquals(TEntity x, TEntity y, Func<TEntity, TEntity, bool> equals = null) => (x == null == (y == null)) && (x == null || ReferenceEquals(x, y) || x.Equals(y) || (equals?.Invoke(x, y) ?? true));
+        public static bool NullAwareEquals(TEntity x, TEntity y, CompareEquality<TEntity> equals = null) => (x == null == (y == null)) && (x == null || ReferenceEquals(x, y) || x.Equals(y) || (equals?.Invoke(x, y) ?? true));
         public static int DefaultGetHashCode(TEntity obj) => obj?.GetHashCode() ?? 0;
     }
 }
