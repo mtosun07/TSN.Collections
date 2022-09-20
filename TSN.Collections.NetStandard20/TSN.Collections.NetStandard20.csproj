@@ -27,7 +27,7 @@
 		<PackageTags>collections;object;models;special;generic;hashset;readonly;equality;hash code;comparer;interface;linq;extension</PackageTags>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageReleaseNotes>Added LINQ extension methods</PackageReleaseNotes>
+		<PackageReleaseNotes>Minor fixes</PackageReleaseNotes>
 	</PropertyGroup>
 
 	<ItemGroup>
