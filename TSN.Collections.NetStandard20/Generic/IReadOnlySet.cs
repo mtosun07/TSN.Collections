@@ -11,6 +11,7 @@ namespace TSN.Collections.Generic
         bool IsSupersetOf(IEnumerable<T> other);
         bool Overlaps(IEnumerable<T> other);
         bool SetEquals(IEnumerable<T> other);
+        bool Contains(T item);
         IReadOnlySet<T> ExceptWith(IEnumerable<T> other);
         IReadOnlySet<T> IntersectWith(IEnumerable<T> other);
         IReadOnlySet<T> SymmetricExceptWith(IEnumerable<T> other);
